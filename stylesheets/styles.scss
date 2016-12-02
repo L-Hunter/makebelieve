@@ -2,6 +2,7 @@ $title-background: #FFDE89;
 $nav-background: #B1DDF3;
 $emphasis-color: #E3675C;
 $accent-color: #F1B2E1;
+$border-accent: 1px solid $accent-color;
 
 body, header {
 	margin: 0;
@@ -11,16 +12,40 @@ body, header {
 }
 
 .town-name {
-	padding: 30px;
+	padding: 26px;
 	margin: 0 auto;
 	background-color: $title-background;
 	text-align: center;
-	font-size: 45px;
+	font-size: 48px;
+}
+
+.btn {
+	float: right;
+	border: $border-accent;
+}
+
+.modal-title {
+	color: $emphasis-color;
+	padding: 0;
+	font-size: 28px;
+}
+
+.modal-header {
+	background-color: $title-background;
+}
+
+.modal-message {
+	font-size: 18px;
+}
+
+.modal-image {
+	width: 400px;
 }
 
 .nav-bar {
 	list-style: none;
 	background-color: $nav-background;
+	border-bottom: $border-accent;
 
 	li {
 		display: inline-block;
@@ -57,4 +82,5 @@ footer {
 	background-color: #FFDE89;
 	text-align: center;
 	padding: 5px;
+	border-top: $border-accent;
 }
