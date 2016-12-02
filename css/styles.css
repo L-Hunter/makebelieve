@@ -1,5 +1,46 @@
-body {
+body, header {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 18px;
+  font-family: Georgia, serif; }
+
+.town-name {
+  padding: 30px;
+  margin: 0 auto;
+  background-color: #FFDE89;
+  text-align: center;
+  font-size: 45px; }
+
+.nav-bar {
+  list-style: none;
+  background-color: #B1DDF3; }
+  .nav-bar li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 8px 5px 8px 15px; }
+
+#wrapper {
+  width: 85%;
+  margin: 0 auto; }
+
+.map {
+  border-radius: 15%; }
+
+.welcome, .map, .news, .calendar {
+  padding: 10px; }
+
+.neighbor {
+  font-weight: bold;
+  font-style: italic;
+  color: #E3675C;
+  font-size: 22px; }
+
+.headline {
+  color: #E3675C; }
+
+footer {
+  background-color: #FFDE89;
+  text-align: center;
+  padding: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
